@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="soal.css">
+    <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div id="container">
+        <div id="wrap-heading">
+            <button class="nav-button">
+                <i class='bx bx-chevron-left'></i>
+            </button>
+            <p class="heading">K-10 Questionnaire</p>
+            <button class="nav-button">
+                <i class='bx bx-chevron-right'></i>
+            </button>
+        </div>
+
+        <div id="question-box">
+            <p id="question">Apakah aku adalah manusia?</p>
+            <div class="scale">
+                <p>None of the time</p>
+                <button class="scale-item">
+                    <div class="circle red"></div>
+                </button>
+                <button class="scale-item">
+                    <div class="circle light-red"></div>
+                </button>
+                <button class="scale-item">
+                    <div class="circle gray"></div>
+                </button>
+                <button class="scale-item">
+                    <div class="circle light-blue"></div>
+                </button>
+                <button class="scale-item">
+                    <div class="circle blue"></div>
+                </button>
+                <p>All of the time</p>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+                <span class="progress-text" id="progress-text">0%</span>
+            </div>
+        </div>
+        <button id="submit-button" class="nav-btn" disabled>Submit</button>
+    </div>
+    <script src="soal.js"></script>
+</body>
+
+</html>

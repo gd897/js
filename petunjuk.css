@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
+ body {
+    background-image: url('Group\ 29.svg');
+    background-color: #FFF5CD;
+    background-size:  contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+ 
+ 
+ header {
+    padding: 60px;
+ }
+ 
+ 
+ h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ 
+ 
+ .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ .card-container1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ .card {
+    width: 1150px;
+    height: 450px;
+    background-color: #FFF2BE;
+    border: 2px solid #333;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ 
+ .card h1 {
+    margin-top: 20px;
+ }
+ 
+ 
+ .card ul {
+    list-style-type: disc;
+    margin: 15px 20px;
+    padding-left: 20px;
+ }
+ .card ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ 
+ 
+ .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 750px;
+   
+ }
+ 
+ 
+ .back-button {
+    background-color:#A2D2FF;
+    border: 2px black solid;
+    height: 45px;
+    width: 200px;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ 
+ 
+ .start-button {
+    background-color:#A2D2FF;
+    border: 2px black solid;
+    height: 45px;
+    width: 200px;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+ }
+ 
+ 
+ .start-button:hover {
+    background-color: #007BFF;
+    color: #FFF;
+ }
+ 
+ 
+ .back-button:hover {
+    background-color: #007BFF;
+    color: #FFF;
+ }
+ 
