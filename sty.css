@@ -1,0 +1,12 @@
+body{
+
+}
+.box{
+
+	background: linear-gradient(aqua, blue);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 10px;
+	border: 1px solid;
+	background-size: cover;
+}
